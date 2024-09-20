@@ -3,20 +3,20 @@ This project outlines the creation of an IoT-Based Patient Health Monitoring Sys
 
 ## Overview
 
-The system is designed for continuous monitoring of patients' health, particularly for the elderly, whose vital signs must be tracked periodically. The device uses sensors to measure:
+The system is designed for continuous monitoring of patients' health, particularly for the elderly, whose vital signs must be tracked periodically. The device uses sensors to measure:\n
 
-Heart rate and blood oxygen level using the MAX30100/102 Pulse Oximeter.
-Body temperature using the DS18B20 Temperature Sensor.
+Heart rate and blood oxygen level using the MAX30100/102 Pulse Oximeter.\n
+Body temperature using the DS18B20 Temperature Sensor.\n
 Room temperature and humidity with the DHT11 Sensor.
 
 ## Components
 
 The system requires the following components:
 
-ESP32 Board – microcontroller for running the web server.
-MAX30100 Pulse Oximeter Sensor – to measure heart rate (BPM) and oxygen level (SpO2).
-DS18B20 Temperature Sensor – for body temperature measurement.
-DHT11 Sensor – for room temperature and humidity monitoring.
+ESP32 Board – microcontroller for running the web server.\n
+MAX30100 Pulse Oximeter Sensor – to measure heart rate (BPM) and oxygen level (SpO2).\n
+DS18B20 Temperature Sensor – for body temperature measurement.\n
+DHT11 Sensor – for room temperature and humidity monitoring.\n
 Resistors and connecting wires for circuit assembly.
 
 ## Working
@@ -33,10 +33,8 @@ The ESP32 runs a web server where patient data is updated in real-time. The sour
 
 ## Key Features
 
-Real-time monitoring of vital parameters.
-
-Remote access via a web server.
-
+Real-time monitoring of vital parameters.\n
+Remote access via a web server.\n
 Periodic data reporting with clear indicators for BPM, SpO2, and temperatures.
 
 This project could be expanded with additional features like alerts or notifications based on abnormal readings, making it a robust solution for patient health monitoring.
