@@ -34,7 +34,9 @@ The ESP32 runs a web server where patient data is updated in real-time. The sour
 ## Key Features
 
 Real-time monitoring of vital parameters.
+
 Remote access via a web server.
+
 Periodic data reporting with clear indicators for BPM, SpO2, and temperatures.
 
 This project could be expanded with additional features like alerts or notifications based on abnormal readings, making it a robust solution for patient health monitoring.
